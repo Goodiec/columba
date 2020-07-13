@@ -512,3 +512,52 @@ ul.social-icons li a:hover{
     font-size: 18px;
   }
 }
+
+/*Preloader*/
+/* #loader{
+  position: relative;
+  top: 50%;
+  text-align: center;
+}
+#loader img{
+  animation: flip 4s linear infinite;
+}
+#loader h4{
+  margin-top: 20px;
+  font-size: 60px;
+  background-image: linear-gradient(to right, #f00, #ff0, #0ff, #0f0, #00f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: colors 20s linear infinite;
+  background-size: 1000%;
+  color: transparent;
+}
+@keyframes colors {
+  0% { background-position:0% 100%; }
+  50% { background-position:100% 0%; }
+  100% { background-position:0% 100%; }
+}
+@keyframes flip{
+  0% { transform: rotateY(90deg);}
+  50% { transform: rotateY(180deg);}
+  100% { transform: rotateY(270deg);}
+
+} */
+/* Animate content */
+/* .animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+} */

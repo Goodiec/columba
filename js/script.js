@@ -74,3 +74,12 @@ $(function(){
         }
     });
 });
+
+var $window = $(window);
+
+// Preloader
+$window.on('load', function () {
+    $('#loader').fadeOut('slow', function () {
+        $(this).remove();
+    });
+});
