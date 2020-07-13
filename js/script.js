@@ -1,7 +1,7 @@
-$(function(){
-    //animate on scroll
-    new WOW().init();
-});
+// $(function(){
+//     //animate on scroll
+//     new WOW().init();
+// });
 
 //Toggle class scrolled on the fixed navbar
 $(window).scroll(function(){
@@ -15,27 +15,29 @@ $('.carousel').carousel({
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel();
 });
-// let owl = $('.owl-carousel');
-// owl.owlCarousel({
-//     items:3,
-//     loop:true,
-//     margin:10,
-//     autoplay:true,
-//     autoplayTimeout:3000,
-//     autoplayHoverPause:true,
-//     responsiveClass:true,
-//     responsive:{
-//         0:{
-//             items:1,
-//         },
-//         600:{
-//             items:2,
-//         },
-//         1000:{
-//             items:3,
-//         }
-//     }
-// });
+let small_img = $('.small-img-carousel');
+small_img.owlCarousel({
+    items:4,
+    loop:true,
+    margin:0,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    width:100,
+    height: 100,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:3,
+        },
+        600:{
+            items:3,
+        },
+        1000:{
+            items:3,
+        }
+    }
+});
 
 let hero_slides = $('.hero-slides');
 hero_slides.owlCarousel({
